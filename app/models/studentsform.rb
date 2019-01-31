@@ -1,0 +1,2 @@
+class Studentsform < ApplicationRecord
+end

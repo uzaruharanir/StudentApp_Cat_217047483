@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @studentsform.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @studentsform.lastname %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @studentsform.age %>
+</p>
+
+<p>
+  <strong>Regno:</strong>
+  <%= @studentsform.regno %>
+</p>
+
+<%= link_to 'Edit', edit_studentsform_path(@studentsform) %> |
+<%= link_to 'Back', studentsforms_path %>
